@@ -1,0 +1,78 @@
+/* General styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2196f3;
+}
+
+nav .menu a {
+  color: #2196f3;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #e3f2fd;
+}
+
+.hero h1 {
+  font-size: 40px;
+  color: #333;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #666;
+}
+
+.hero button {
+  background-color: #2196f3;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.features {
+  padding: 20px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 32px;
+  color: #333;
+}
+
+.feature-list {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.feature {
+  width: 30%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

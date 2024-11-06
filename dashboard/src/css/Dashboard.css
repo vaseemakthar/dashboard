@@ -1,0 +1,58 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2196f3;
+}
+
+nav .menu a {
+  color: #2196f3;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.overview {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #e3f2fd;
+}
+
+.overview h2 {
+  font-size: 32px;
+}
+
+.analytics {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+}
+
+.chart {
+  width: 45%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.data {
+  margin-top: 15px;
+  font-size: 1.1rem;
+  color: #333;
+}
